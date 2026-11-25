@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Ghaya Fouad software developer portfolio</title>
+  <desc id="description">Python, API development, workflow automation, and Flutter portfolio.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#172d3f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#65e0c2"/>
+      <stop offset="1" stop-color="#7bc8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#background)"/>
+  <circle cx="1030" cy="72" r="180" fill="#65e0c2" opacity=".08"/>
+  <circle cx="1092" cy="262" r="130" fill="#7bc8ff" opacity=".08"/>
+  <path d="M0 275 C210 225 345 328 566 272 S929 222 1200 268" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".35"/>
+  <text x="72" y="116" fill="#f5f8fc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Ghaya Fouad</text>
+  <text x="75" y="164" fill="#c9d6e5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">Software Developer</text>
+  <text x="75" y="207" fill="#9fb3c8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Python  |  APIs  |  Automation  |  Flutter</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">
+    <rect x="74" y="244" width="115" height="38" rx="19" fill="#ffffff" opacity=".09"/>
+    <text x="131" y="268" text-anchor="middle" fill="#dffaf3">Python</text>
+    <rect x="202" y="244" width="115" height="38" rx="19" fill="#ffffff" opacity=".09"/>
+    <text x="259" y="268" text-anchor="middle" fill="#dffaf3">FastAPI</text>
+    <rect x="330" y="244" width="115" height="38" rx="19" fill="#ffffff" opacity=".09"/>
+    <text x="387" y="268" text-anchor="middle" fill="#dffaf3">SQLite</text>
+    <rect x="458" y="244" width="115" height="38" rx="19" fill="#ffffff" opacity=".09"/>
+    <text x="515" y="268" text-anchor="middle" fill="#dffaf3">Flutter</text>
+  </g>
+</svg>
+
