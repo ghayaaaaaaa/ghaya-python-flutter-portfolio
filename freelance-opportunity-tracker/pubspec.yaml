@@ -1,0 +1,19 @@
+name: freelance_opportunity_tracker
+description: A private, offline-first Flutter app for organizing freelance opportunities.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 2.2.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
