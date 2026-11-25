@@ -1,0 +1,9 @@
+.agent/
+reports/*.md
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
