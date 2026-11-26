@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
   <title id="title">Ghaya Fouad — Software Developer</title>
-  <desc id="description">A code-editor banner featuring a real excerpt from the approval-first workflow source and Ghaya Fouad's development focus.</desc>
+  <desc id="description">A code-editor banner featuring the exact approval method from the agentic workflow source.</desc>
   <rect width="1200" height="340" fill="#0b1118"/>
-
   <rect x="24" y="24" width="750" height="292" rx="8" fill="#111a24" stroke="#283746"/>
   <path d="M24 65H774" stroke="#283746"/>
   <circle cx="48" cy="44" r="5" fill="#f07178"/>
@@ -10,19 +9,17 @@
   <circle cx="84" cy="44" r="5" fill="#c3e88d"/>
   <text x="108" y="49" fill="#aab7c4" font-family="Consolas, 'Courier New', monospace" font-size="13">approval_agent / engine.py</text>
   <text x="744" y="49" text-anchor="end" fill="#7d8b99" font-family="Consolas, 'Courier New', monospace" font-size="12">Python 3</text>
-
-  <g font-family="Consolas, 'Courier New', monospace" font-size="12.5">
-    <text x="44" y="98" fill="#617080">01</text><text x="76" y="98" fill="#c792ea">def</text><text x="105" y="98" fill="#82aaff"> start</text><text x="150" y="98" fill="#d6deeb">(self, goal: str) -&gt; tuple[str, list[str]]:</text>
-    <text x="44" y="124" fill="#617080">02</text><text x="76" y="124" fill="#d6deeb">    plan: Plan = self.planner.plan(goal)</text>
-    <text x="44" y="150" fill="#617080">03</text><text x="76" y="150" fill="#c792ea">    if</text><text x="97" y="150" fill="#d6deeb"> not plan.steps:</text>
-    <text x="44" y="176" fill="#617080">04</text><text x="76" y="176" fill="#d6deeb">        raise ValueError(</text><text x="238" y="176" fill="#c3e88d">"The planner returned an empty plan."</text><text x="507" y="176" fill="#d6deeb">)</text>
-    <text x="44" y="202" fill="#617080">05</text><text x="76" y="202" fill="#c792ea">    if</text><text x="97" y="202" fill="#d6deeb"> any(step.tool not in TOOL_ALLOWLIST for step in plan.steps):</text>
-    <text x="44" y="228" fill="#617080">06</text><text x="76" y="228" fill="#d6deeb">        raise ValueError(</text><text x="238" y="228" fill="#c3e88d">"The plan contains a tool outside the allowlist."</text><text x="585" y="228" fill="#d6deeb">)</text>
-    <text x="44" y="254" fill="#617080">07</text><text x="76" y="254" fill="#d6deeb">    run_id = uuid.uuid4().hex[:12]</text>
-    <text x="44" y="280" fill="#617080">08</text><text x="76" y="280" fill="#d6deeb">    self.store.create_run(run_id, plan.goal, steps)</text>
-    <text x="44" y="306" fill="#617080">09</text><text x="76" y="306" fill="#d6deeb">    self._continue_run(run_id)</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16">
+    <text x="44" y="100" fill="#617080">01</text><text x="76" y="100" fill="#c792ea">def</text><text x="115" y="100" fill="#82aaff">approve</text><text x="192" y="100" fill="#d6deeb">(self, action_id: str) -&gt; None:</text>
+    <text x="44" y="125" fill="#617080">02</text><text x="115" y="125" fill="#d6deeb">step = self.store.get_step(action_id)</text>
+    <text x="44" y="150" fill="#617080">03</text><text x="115" y="150" fill="#c792ea">if</text><text x="140" y="150" fill="#d6deeb"> step is None:</text>
+    <text x="44" y="175" fill="#617080">04</text><text x="154" y="175" fill="#c792ea">raise</text><text x="202" y="175" fill="#82aaff"> KeyError</text><text x="288" y="175" fill="#d6deeb">(</text><text x="298" y="175" fill="#c3e88d">"Unknown action ID."</text><text x="490" y="175" fill="#d6deeb">)</text>
+    <text x="44" y="200" fill="#617080">05</text><text x="115" y="200" fill="#c792ea">if</text><text x="140" y="200" fill="#d6deeb"> step[</text><text x="192" y="200" fill="#c3e88d">"status"</text><text x="269" y="200" fill="#d6deeb">] == </text><text x="317" y="200" fill="#c3e88d">"completed"</text><text x="423" y="200" fill="#d6deeb">:</text>
+    <text x="44" y="225" fill="#617080">06</text><text x="154" y="225" fill="#c792ea">return</text>
+    <text x="44" y="250" fill="#617080">07</text><text x="154" y="250" fill="#d6deeb">step = self.store.mark_approved(action_id)</text>
+    <text x="44" y="275" fill="#617080">08</text><text x="154" y="275" fill="#d6deeb">self._execute(step)</text>
+    <text x="44" y="300" fill="#617080">09</text><text x="154" y="300" fill="#d6deeb">self._continue_run(step["run_id"])</text>
   </g>
-
   <path d="M799 52V288" stroke="#283746"/>
   <text x="835" y="112" fill="#eff4f8" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Ghaya Fouad</text>
   <text x="837" y="151" fill="#afbdca" font-family="Segoe UI, Arial, sans-serif" font-size="19">Software Developer</text>
