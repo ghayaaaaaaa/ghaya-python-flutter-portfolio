@@ -1,42 +1,37 @@
 # Ghaya Fouad | Software Developer
 
-![Ghaya Fouad — Software Developer focused on Python, APIs, automation, and Flutter](./assets/portfolio-banner.svg)
+![Ghaya Fouad — Python, APIs, automation, and Flutter](./assets/portfolio-banner.svg)
 
-I am a software developer with project-based experience in Python backend development, REST APIs, relational data workflows, and Flutter. This portfolio presents four focused, AI-assisted demonstrations, each with clear setup instructions, design notes, and limits.
+I build software with Python, REST APIs, relational databases, workflow automation, and Flutter. This page is a directory for my independent project repositories.
 
-**Focus:** Python · FastAPI · SQLite · workflow automation · Flutter · Dart
+## Projects
 
-## Featured projects
+### [Approval-First Agentic Workflow](https://github.com/ghayaaaaaaa/approval-first-agentic-workflow)
+**Python · SQLite · workflow orchestration**
 
-| Project | Stack | What you can review |
-|---|---|---|
-| [Approval-First Agentic Workflow](./approval-first-agentic-workflow/README.md) | Python, SQLite | A deterministic, three-step workflow with an explicit tool allowlist, approval before writing, and a local audit trail. |
-| [Service Desk API Demo](./fastapi-service-desk-api/README.md) | Python, FastAPI, SQLite | Typed request and response schemas, input validation, parameterized database queries, filtering, pagination, and OpenAPI docs. |
-| [Portfolio Release Auditor](./portfolio-release-auditor/README.md) | Python, CLI | A local preflight tool that reports common release risks by category and safe file reference without printing matched values. |
-| [Freelance Opportunity Tracker](./freelance-opportunity-tracker/README.md) | Flutter, Dart | An offline sample with a responsive dashboard, live status counts, searchable records, and separate UI, domain, view-model, and storage layers. |
+A deterministic workflow demo with an explicit tool allowlist, human approval before protected actions, persisted state, and a local audit trail. The planner is rule-based; it does not call an LLM or make live external requests.
 
-## Engineering highlights
+### [Service Desk API Demo](https://github.com/ghayaaaaaaa/fastapi-service-desk-api)
+**Python · FastAPI · SQLite**
 
-- **Bounded automation:** the workflow sample uses typed steps and allowlisted tools, asks for approval before writing, and records state transitions in SQLite.
-- **API fundamentals:** the service desk sample demonstrates validation, CRUD operations, parameterized SQL, filtering, pagination, and generated API documentation.
-- **Privacy-aware tooling:** the release auditor reports locations and finding categories without echoing matched content; its findings still need human review.
-- **Mobile architecture:** the Flutter sample keeps its interface, domain model, view model, and local persistence in separate layers, with an adaptive dashboard for saved leads and applications.
+A small REST API demonstrating typed schemas, request validation, parameterized database queries, filtering, pagination, and generated API documentation.
 
-## Start exploring
+### [Portfolio Release Auditor](https://github.com/ghayaaaaaaa/portfolio-release-auditor)
+**Python · command line**
 
-Each project is self-contained and has its own setup instructions, requirements, and limitations. Open the project README first, then follow the commands listed there. The samples use synthetic example data and are intended for local review.
+A local preflight utility that reports common release risks by category and file reference without printing matched values.
 
-A useful review order is the workflow sample, the API, the release auditor, and then the Flutter app.
+### [Freelance Opportunity Tracker](https://github.com/ghayaaaaaaa/freelance-opportunity-tracker)
+**Flutter · Dart**
 
-## Scope and attribution
+An offline-first sample app for organizing saved opportunities, with search, status filters, responsive summary cards, and local persistence.
 
-These portfolio demonstrations were prepared with AI assistance. They do not claim client delivery, production deployment, or model training. The workflow planner is deterministic and does not call an LLM or make live external requests. The Flutter app stores data locally and does not connect to freelance marketplaces. The API has no authentication and is not designed for public deployment. The release auditor is a preflight aid, not proof that a project is safe or legally clear to publish.
+## About these projects
 
-## Reuse
+Each project is maintained in its own repository with its own source files and setup notes. These are AI-assisted portfolio demonstrations using synthetic sample data. They are not presented as client deliveries or production deployments. No model-training claim is made.
 
-No open-source license is included. Review ownership, third-party notices, and redistribution rights before reusing any part of this portfolio.
+Review the README in each repository for installation steps, implementation details, and known limitations.
 
 ## Opportunities
 
-Open to remote software roles and project work related to Python, API development, automation, and Flutter.
-
+Open to remote software roles and project work involving Python, API development, automation, or Flutter.
