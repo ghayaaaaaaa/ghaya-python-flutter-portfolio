@@ -16,6 +16,11 @@ A deterministic workflow demo with an explicit tool allowlist, human approval be
 
 A small REST API demonstrating typed schemas, request validation, parameterized database queries, filtering, pagination, and generated API documentation.
 
+### [Fashion-MNIST CNN](https://github.com/ghayaaaaaaa/fashion-mnist-cnn)
+**Python · TensorFlow/Keras · CNN**
+
+A command-line image-classification project with configurable CNN variants, early stopping, and JSON evaluation reports. No training result is claimed; see the project README for provenance and limitations.
+
 ### [Portfolio Release Auditor](https://github.com/ghayaaaaaaa/portfolio-release-auditor)
 **Python · command line**
 
