@@ -21,6 +21,11 @@ A small REST API demonstrating typed schemas, request validation, parameterized 
 
 A command-line image-classification project with configurable CNN variants, early stopping, and JSON evaluation reports. No training result is claimed; see the project README for provenance and limitations.
 
+### [Image Processing Workbench](https://github.com/ghayaaaaaaa/image-processing-workbench)
+**Python · NumPy · Pillow · command line**
+
+A reproducible CLI that applies classic transformations to generated images and writes a local SHA-256 artifact manifest. It makes no network calls and includes no personal images or data. See the project README for provenance and limitations.
+
 ### [Portfolio Release Auditor](https://github.com/ghayaaaaaaa/portfolio-release-auditor)
 **Python · command line**
 
@@ -33,7 +38,7 @@ An offline-first sample app for organizing saved opportunities, with search, sta
 
 ## About these projects
 
-Each project is maintained in its own repository with its own source files and setup notes. These are AI-assisted portfolio demonstrations using synthetic sample data. They are not presented as client deliveries or production deployments. No model-training claim is made.
+Each project is maintained in its own repository with its own source files and setup notes. These are AI-assisted demonstrations, not client deliveries or production deployments. Inputs and data sources differ by project: generated inputs are used where stated, and Fashion-MNIST loads a public benchmark dataset through Keras without bundling images. See each repository's README for provenance and limitations. No measured model-training result is claimed.
 
 Review the README in each repository for installation steps, implementation details, and known limitations.
 
