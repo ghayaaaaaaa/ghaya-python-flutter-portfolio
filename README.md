@@ -9,7 +9,7 @@ I build software with Python, REST APIs, relational databases, workflow automati
 ### [Approval-First Agentic Workflow](https://github.com/ghayaaaaaaa/approval-first-agentic-workflow)
 **Python · SQLite · workflow orchestration**
 
-A deterministic workflow demo with an explicit tool allowlist, human approval before protected actions, persisted state, and a local audit trail. The planner is rule-based; it does not call an LLM or make live external requests.
+An offline-first workflow agent with a deterministic planner by default and an optional, explicitly enabled OpenAI Responses API planner. Both plans pass the same local validator and allowlisted tools; SQLite records each run, and report writes pause for review and a separate approval command. No model-training or production-deployment claim is made.
 
 ### [Service Desk API Demo](https://github.com/ghayaaaaaaa/fastapi-service-desk-api)
 **Python · FastAPI · SQLite**
