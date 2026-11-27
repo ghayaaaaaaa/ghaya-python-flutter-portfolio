@@ -26,6 +26,11 @@ A command-line image-classification project with configurable CNN variants, earl
 
 A reproducible CLI that applies classic transformations to generated images and writes a local SHA-256 artifact manifest. It makes no network calls and includes no personal images or data. See the project README for provenance and limitations.
 
+### [Traffic Index Analysis](https://github.com/ghayaaaaaaa/traffic-index-analysis)
+**Python · Jupyter · pandas · exploratory analytics**
+
+Five notebooks explore city-level congestion summaries, peak hours, and predictive workflows using deterministic synthetic data. Original CSVs are excluded, and no benchmark result or live traffic feed is claimed.
+
 ### [Portfolio Release Auditor](https://github.com/ghayaaaaaaa/portfolio-release-auditor)
 **Python · command line**
 
