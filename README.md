@@ -75,7 +75,15 @@ Compares naive and moving-average forecasts on synthetic values using past-only 
 
 Shows exact normalized skill overlap against fictional roles; it does not parse resumes, infer qualifications, or make hiring decisions.
 
+### [ESG Evidence Checklist](https://github.com/ghayaaaaaaa/esg-evidence-checklist)
+**Python · CSV · aggregate reporting**
 
+Summarizes synthetic indicator coverage by ESG topic and reports unmapped rows; it does not assess compliance or verify claims.
+
+### [Sign Dataset Quality Checker](https://github.com/ghayaaaaaaa/sign-dataset-quality-checker)
+**Python · CSV · metadata validation**
+
+Checks a synthetic image manifest for missing labels, repeated paths, and split assignments without reading image files or claiming model results.
 
 ## About these projects
 
