@@ -70,6 +70,21 @@ Summarizes a static synthetic capacity snapshot and suggests a zone using a dete
 
 Compares naive and moving-average forecasts on synthetic values using past-only evaluation; no model training or live forecast is claimed.
 
+### [Career Skill Matcher](https://github.com/ghayaaaaaaa/career-skill-matcher)
+**Python · deterministic matching · CLI**
+
+A transparent CLI compares a supplied skill list with synthetic roles and shows matching and missing skills. It does not parse resumes, use a learned model, or make hiring decisions.
+
+### [ESG Evidence Checklist](https://github.com/ghayaaaaaaa/esg-evidence-checklist)
+**Python · CSV · aggregate reporting**
+
+Summarizes evidence coverage from a small synthetic indicator table. It does not parse source documents, verify claims, or assess regulatory compliance.
+
+### [Sign Dataset Quality Checker](https://github.com/ghayaaaaaaa/sign-dataset-quality-checker)
+**Python · metadata validation · CLI**
+
+Checks a synthetic labeled-image manifest for missing labels, repeated relative paths, and conflicting split assignments. It never opens image files or verifies consent or licensing.
+
 ## Flutter projects
 
 These standalone Flutter prototypes are shared as separate source archives. Each repository README includes setup instructions and project limitations.
