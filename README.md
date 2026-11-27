@@ -70,27 +70,10 @@ Summarizes a static synthetic capacity snapshot and suggests a zone using a dete
 
 Compares naive and moving-average forecasts on synthetic values using past-only evaluation; no model training or live forecast is claimed.
 
-### [Career Skill Matcher](https://github.com/ghayaaaaaaa/career-skill-matcher)
-**Python · explainable rules · CLI**
+## Flutter projects
 
-Shows exact normalized skill overlap against fictional roles; it does not parse resumes, infer qualifications, or make hiring decisions.
+These standalone Flutter prototypes are shared as separate source archives. Each repository README includes setup instructions and project limitations.
 
-### [ESG Evidence Checklist](https://github.com/ghayaaaaaaa/esg-evidence-checklist)
-**Python · CSV · aggregate reporting**
-
-Summarizes synthetic indicator coverage by ESG topic and reports unmapped rows; it does not assess compliance or verify claims.
-
-### [Sign Dataset Quality Checker](https://github.com/ghayaaaaaaa/sign-dataset-quality-checker)
-**Python · CSV · metadata validation**
-
-Checks a synthetic image manifest for missing labels, repeated paths, and split assignments without reading image files or claiming model results.
-
-## About these projects
-
-Each project is maintained in its own repository with its own source files and setup notes. These are AI-assisted demonstrations, not client deliveries or production deployments. Inputs and data sources differ by project: generated inputs are used where stated, and Fashion-MNIST loads a public benchmark dataset through Keras without bundling images. See each repository's README for provenance and limitations. No measured model-training result is claimed.
-
-Review the README in each repository for installation steps, implementation details, and known limitations.
-
-## Opportunities
-
-Open to remote software roles and project work involving Python, API development, automation, or Flutter.
+- [Alinma Oasis](https://github.com/ghayaaaaaaa/enmaapp) — Arabic RTL finance prototype using synthetic demo data; not an official bank product.
+- [AlarmMe](https://github.com/ghayaaaaaaa/alarmme) — offline-first alarm and routine planner. Bundled sound assets have no separate license, so the repository grants no reuse license.
+- [Arabic AI Video Studio](https://github.com/ghayaaaaaaa/arabic-ai-video-studio) — Arabic RTL Flutter and FastAPI media workflow prototype with a mock generation engine; no real AI video generation or model-training claim.
